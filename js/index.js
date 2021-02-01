@@ -9,9 +9,20 @@ document.write(
         num +
         '" />'
 );
+
 var html = document.getElementsByTagName('html')[0];
+
 let pageWidth = window.innerWidth;
-html.style.fontSize = (20 / 1125) * pageWidth + 'px';
+
+let pageHeight = window.innerHeight;
+
+let ratioPage = pageWidth / pageHeight;
+
+if (ratioPage < 0.6) {
+    html.style.fontSize = (20 / 1125) * pageWidth + 'px';
+} else {
+    html.style.fontSize = (20 / 2436) * pageHeight + 'px';
+}
 
 var mySwiper = new Swiper('.swiper-container', {
     scrollbar: {
