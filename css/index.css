@@ -17,6 +17,7 @@ li {
   clear: both; }
 
 body {
+  height: 100vh;
   height: 100vh; }
 
 /* 布局 */
@@ -160,6 +161,8 @@ body {
         align-items: center; }
         .wrapper2 .section .section1 .navInfo span:nth-child(1) {
           margin: 0 20px; }
+          .wrapper2 .section .section1 .navInfo span:nth-child(1) img {
+            height: 46px; }
       .wrapper2 .section .section1 .detail {
         height: 60%;
         font-family: PingFang-SC-Regular;
@@ -176,26 +179,42 @@ body {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
-      .wrapper2 .section .section2 div {
-        width: calc(50% - 15px);
+      .wrapper2 .section .section2 div.item {
+        width: 50%;
         height: 50%; }
-      .wrapper2 .section .section2 div:nth-child(2n + 1) {
-        margin-left: 30px; }
-      .wrapper2 .section .section2 div.son1 {
-        border: 3px solid red;
-        width: calc(100% - 30px);
-        height: 75%;
-        margin: 0; }
-      .wrapper2 .section .section2 div.son2 {
-        width: calc(100% - 30px);
-        font-family: PingFang-SC-Regular;
-        color: #fff;
-        font-size: 25px;
-        height: 25%;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+        .wrapper2 .section .section2 div.item div.son1 {
+          height: 75%;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative; }
+          .wrapper2 .section .section2 div.item div.son1 img {
+            height: 100%; }
+          .wrapper2 .section .section2 div.item div.son1 div.grandSon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .wrapper2 .section .section2 div.item div.son1 div.grandSon span {
+              color: #fff;
+              font-family: AdobeHeitiStd-Regular;
+              font-size: 50px; }
+        .wrapper2 .section .section2 div.item div.son2 {
+          width: calc(100% - 30px);
+          font-family: PingFang-SC-Regular;
+          color: #fff;
+          font-size: 25px;
+          height: 25%;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
     .wrapper2 .section .section3 {
       height: 10%;
       font-family: PingFang-SC-Regular;
@@ -276,6 +295,8 @@ body {
         align-items: center; }
         .wrapper3 .section .section1 .navInfo span:nth-child(1) {
           margin: 0 20px; }
+          .wrapper3 .section .section1 .navInfo span:nth-child(1) img {
+            height: 46px; }
     .wrapper3 .section .section2 {
       height: 70%;
       position: relative; }

@@ -19,6 +19,7 @@ li {
 }
 body {
     height: 100vh;
+    height: 100vh;
 }
 /* 布局 */
 .swiper-container {
@@ -190,6 +191,9 @@ body {
                 align-items: center;
                 span:nth-child(1) {
                     margin: 0 20px;
+                    img {
+                        height: 46px;
+                    }
                 }
             }
             .detail {
@@ -211,30 +215,52 @@ body {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            div {
-                width: calc(50% - 15px);
+            div.item {
+                width: 50%;
                 height: 50%;
+
+                div.son1 {
+                    height: 75%;
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    img {
+                        height: 100%;
+                    }
+                    div.grandSon {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        span {
+                            color: #fff;
+                            font-family: AdobeHeitiStd-Regular;
+                            font-size: 50px;
+                        }
+                    }
+                }
+                div.son2 {
+                    width: calc(100% - 30px);
+                    font-family: PingFang-SC-Regular;
+                    color: #fff;
+                    font-size: 25px;
+                    height: 25%;
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
-            div:nth-child(2n + 1) {
-                margin-left: 30px;
-            }
-            div.son1 {
-                border: 3px solid red;
-                width: calc(100% - 30px);
-                height: 75%;
-                margin: 0;
-            }
-            div.son2 {
-                width: calc(100% - 30px);
-                font-family: PingFang-SC-Regular;
-                color: #fff;
-                font-size: 25px;
-                height: 25%;
-                margin: 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
+            // div:nth-child(2n + 1) {
+            //     margin-left: 2%;
+            // }
         }
         .section3 {
             height: 10%;
@@ -338,6 +364,9 @@ body {
                 align-items: center;
                 span:nth-child(1) {
                     margin: 0 20px;
+                    img {
+                        height: 46px;
+                    }
                 }
             }
         }
