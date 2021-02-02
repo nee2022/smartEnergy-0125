@@ -453,9 +453,42 @@ body {
                 align-items: center;
                 justify-content: center; }
         .wrapper4 .section .section2 .section2Wrapper .s2part2 {
-          border: 3px solid black;
           height: 44%;
           width: 100%; }
+          .wrapper4 .section .section2 .section2Wrapper .s2part2 .title {
+            height: 15%;
+            font-family: AdobeHeitiStd-Regular;
+            font-size: 42px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .wrapper4 .section .section2 .section2Wrapper .s2part2 .title span:nth-child(2) {
+              margin: 0 0.5em; }
+          .wrapper4 .section .section2 .section2Wrapper .s2part2 .content {
+            height: 85%;
+            padding-left: 3vw;
+            display: flex;
+            flex-direction: column; }
+            .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 {
+              border: 3px solid red;
+              height: 50%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 img {
+                height: 129px;
+                margin: 50px; }
+            .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 {
+              border: 3px solid red;
+              height: 50%;
+              width: 100%;
+              align-items: center;
+              justify-content: center; }
+              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 img {
+                height: 129px;
+                margin: 50px; }
     .wrapper4 .section .section3 {
       height: 20%;
       display: flex;
