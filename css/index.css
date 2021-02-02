@@ -20,7 +20,6 @@ body {
   height: 100vh;
   height: 100vh; }
 
-/* 布局 */
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -174,11 +173,13 @@ body {
           line-height: 1.6; }
     .wrapper2 .section .section2 {
       height: 45%;
+      padding-left: 3vw;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; }
       .wrapper2 .section .section2 div.item {
-        width: 50%;
+        width: 45.5vw;
+        margin-right: 3vw;
         height: 50%; }
         .wrapper2 .section .section2 div.item div.son1 {
           height: 75%;
@@ -386,42 +387,49 @@ body {
     display: flex;
     flex-direction: column; }
     .wrapper4 .section .section1 {
-      height: 30%;
-      font-family: AdobeHeitiStd-Regular;
-      font-size: 110px;
-      font-weight: normal;
-      font-stretch: normal;
-      letter-spacing: -1px;
+      height: 10%;
+      display: flex;
+      font-family: ZhenyanGB-Regular;
+      font-size: 58px;
       color: #fff;
       display: flex;
-      align-items: center;
-      justify-content: center; }
+      align-items: center; }
+      .wrapper4 .section .section1 span:nth-child(1) {
+        margin: 0 20px; }
+        .wrapper4 .section .section1 span:nth-child(1) img {
+          height: 46px; }
     .wrapper4 .section .section2 {
-      height: 50%;
-      border: 3px solid red;
-      position: relative;
-      top: -5vh;
-      padding: 60px 0;
-      font-family: AdobeHeitiStd-Regular;
-      font-size: 50px;
-      letter-spacing: -1px;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-      .wrapper4 .section .section2 div {
-        height: 20%;
+      height: 70%;
+      position: relative; }
+      .wrapper4 .section .section2 .section2Wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 108%;
         width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center; }
-        .wrapper4 .section .section2 div span {
-          width: 80%;
-          padding: 15px 0;
-          border-radius: 107px;
-          background: rgba(0, 0, 0, 0.3);
-          text-align: center; }
+        flex-direction: column; }
+        .wrapper4 .section .section2 .section2Wrapper .s2part1 {
+          height: 56%;
+          width: 100%; }
+          .wrapper4 .section .section2 .section2Wrapper .s2part1 .title {
+            height: 15%;
+            border: 3px solid red;
+            font-family: AdobeHeitiStd-Regular;
+            font-size: 42px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .wrapper4 .section .section2 .section2Wrapper .s2part1 .title span:nth-child(2) {
+              margin: 0 0.5em; }
+          .wrapper4 .section .section2 .section2Wrapper .s2part1 ul.content {
+            height: 85%;
+            border: 3px solid red; }
+        .wrapper4 .section .section2 .section2Wrapper .s2part2 {
+          border: 3px solid black;
+          height: 44%;
+          width: 100%; }
     .wrapper4 .section .section3 {
       height: 20%;
       display: flex;
@@ -442,13 +450,13 @@ body {
           height: 1em;
           overflow: hidden;
           text-align: justify; }
-        .wrapper4 .section .section3 div:nth-child(2) span::after {
-          content: '';
-          display: inline-block;
-          width: 100%; }
         .wrapper4 .section .section3 div:nth-child(2) div.space {
           height: 15px; }
         .wrapper4 .section .section3 div:nth-child(2) span:nth-child(3) {
           font-size: 22px; }
+        .wrapper4 .section .section3 div:nth-child(2) span::after {
+          content: '';
+          display: inline-block;
+          width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
