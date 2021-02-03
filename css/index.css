@@ -810,4 +810,84 @@ body {
           display: inline-block;
           width: 100%; }
 
+.wrapper6 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .wrapper6 .header {
+    height: 5%;
+    background: #ffffff;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .wrapper6 .header div span {
+      font-family: AdobeHeitiStd-Regular;
+      font-size: 50px;
+      font-weight: normal;
+      font-stretch: normal;
+      letter-spacing: -1px;
+      color: #000000; }
+    .wrapper6 .header div:nth-child(3) span {
+      letter-spacing: -3px; }
+  .wrapper6 .section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; }
+    .wrapper6 .section .section1 {
+      height: 10%;
+      display: flex;
+      font-family: ZhenyanGB-Regular;
+      font-size: 58px;
+      color: #fff;
+      display: flex;
+      align-items: center; }
+      .wrapper6 .section .section1 span:nth-child(1) {
+        margin: 0 20px; }
+        .wrapper6 .section .section1 span:nth-child(1) img {
+          height: 46px; }
+    .wrapper6 .section .section2 {
+      height: 70%;
+      margin: 0 20px 20px;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      position: relative; }
+      .wrapper6 .section .section2 .section2Wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(15, 23, 37, 0.72);
+        width: 100%;
+        height: 106%; }
+    .wrapper6 .section .section3 {
+      height: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .wrapper6 .section .section3 div:nth-child(1) img {
+        height: 80px;
+        margin-right: 20px; }
+      .wrapper6 .section .section3 div:nth-child(2) {
+        width: 12em;
+        font-size: 42px;
+        color: #fff;
+        display: flex;
+        flex-direction: column; }
+        .wrapper6 .section .section3 div:nth-child(2) span {
+          font-size: 42px;
+          line-height: 1;
+          height: 1em;
+          overflow: hidden;
+          text-align: justify; }
+        .wrapper6 .section .section3 div:nth-child(2) div.space {
+          height: 15px; }
+        .wrapper6 .section .section3 div:nth-child(2) span:nth-child(3) {
+          font-size: 22px; }
+        .wrapper6 .section .section3 div:nth-child(2) span::after {
+          content: '';
+          display: inline-block;
+          width: 100%; }
+
 /*# sourceMappingURL=index.css.map */
