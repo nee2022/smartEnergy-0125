@@ -471,24 +471,52 @@ body {
             display: flex;
             flex-direction: column; }
             .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 {
-              border: 3px solid red;
               height: 50%;
               width: 100%;
               display: flex;
               align-items: center;
               justify-content: center; }
-              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 img {
-                height: 129px;
-                margin: 50px; }
+              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 div {
+                display: flex;
+                flex-direction: column;
+                margin: 0 50px;
+                height: 80%;
+                width: 124px; }
+                .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 div img {
+                  width: 124px; }
+                .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line1 div span {
+                  font-family: PingFang-SC-Regular;
+                  font-size: 38px;
+                  flex-grow: 1;
+                  color: #fff;
+                  display: flex;
+                  white-space: nowrap;
+                  align-items: center;
+                  justify-content: center; }
             .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 {
-              border: 3px solid red;
+              margin-top: -30px;
               height: 50%;
               width: 100%;
+              display: flex;
               align-items: center;
               justify-content: center; }
-              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 img {
-                height: 129px;
-                margin: 50px; }
+              .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 div {
+                display: flex;
+                flex-direction: column;
+                margin: 0 50px;
+                height: 80%;
+                width: 124px; }
+                .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 div img {
+                  width: 124px; }
+                .wrapper4 .section .section2 .section2Wrapper .s2part2 .content .line2 div span {
+                  font-family: PingFang-SC-Regular;
+                  font-size: 38px;
+                  flex-grow: 1;
+                  color: #fff;
+                  white-space: nowrap;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center; }
     .wrapper4 .section .section3 {
       height: 20%;
       display: flex;
