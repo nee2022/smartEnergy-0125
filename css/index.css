@@ -861,6 +861,62 @@ body {
         background-color: rgba(15, 23, 37, 0.72);
         width: 100%;
         height: 106%; }
+        .wrapper6 .section .section2 .section2Wrapper .s2p1 {
+          height: 22%;
+          display: flex;
+          flex-direction: column; }
+          .wrapper6 .section .section2 .section2Wrapper .s2p1 div {
+            font-size: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+          .wrapper6 .section .section2 .section2Wrapper .s2p1 ul {
+            flex-grow: 1;
+            display: flex; }
+            .wrapper6 .section .section2 .section2Wrapper .s2p1 ul li {
+              width: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              font-family: ZhenyanGB-Regular;
+              font-size: 42px; }
+              .wrapper6 .section .section2 .section2Wrapper .s2p1 ul li img {
+                height: 111px; }
+        .wrapper6 .section .section2 .section2Wrapper .s2p2 {
+          height: 78%; }
+          .wrapper6 .section .section2 .section2Wrapper .s2p2 ul {
+            height: 100%;
+            width: 100%; }
+            .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li {
+              height: 16%;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+              .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div {
+                height: 115px;
+                width: 90%;
+                background-color: rgba(36, 46, 86, 0.59);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between; }
+                .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(1) {
+                  font-size: 33px;
+                  letter-spacing: -1px; }
+                .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(2) {
+                  font-size: 33px;
+                  letter-spacing: -1px; }
+                .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(1) {
+                  margin: 0 20px;
+                  z-index: 1;
+                  height: 31px; }
+                .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(2) {
+                  height: 154px; }
+                .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(3) {
+                  justify-self: flex-end;
+                  margin: 0 20px;
+                  height: 34px; }
     .wrapper6 .section .section3 {
       height: 20%;
       display: flex;
