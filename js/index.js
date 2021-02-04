@@ -24,12 +24,30 @@ if (ratioPage < 0.6) {
     html.style.fontSize = (20 / 2436) * pageHeight + 'px';
 }
 
-var mySwiper = new Swiper('.swiper-container', {
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+// var mySwiper = new Swiper('.swiper-container', {
+//     scrollbar: {
+//         el: '.swiper-scrollbar',
+//     },
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+// });
+
+window.onload = function () {
+    var swiper = new Swiper('.swiper-container', {
+        centeredSlides: true,
+        autoplay: {
+            delay: 10000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+};
