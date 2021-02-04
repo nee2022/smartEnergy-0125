@@ -1231,78 +1231,55 @@ body {
                 position: absolute;
                 top: 0;
                 left: 0;
-                background-color: rgba($color: #0f1725, $alpha: 0.72);
                 width: 100%;
                 height: 106%;
-                .s2p1 {
-                    height: 22%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ul {
+                    height: 100%;
+                    background-color: rgba($color: #0f1725, $alpha: 0.72);
+                    max-width: 1000px;
                     display: flex;
-                    flex-direction: column;
-                    div {
-                        font-size: 42px;
+                    flex-wrap: wrap;
+                    li {
+                        width: 45.5%;
+                        height: 16.666%;
+                        margin-right: 3%;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                    }
-                    ul {
-                        flex-grow: 1;
-                        display: flex;
-                        li {
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            font-family: ZhenyanGB-Regular;
-                            font-size: 42px;
+                        div.liWrapper {
+                            position: relative;
+                            height: 90%;
+                            overflow: hidden;
                             img {
-                                height: 111px;
+                                height: 100%;
+                            }
+                            span {
+                                font-size: 35px;
+                                position: absolute;
+
+                                top: calc(50% - 0.5em);
+                                left: calc(50% - 2.5em);
+                            }
+                            span.left2 {
+                                left: calc(50% - 1em);
+                            }
+                            span.left3 {
+                                left: calc(50% - 1.5em);
+                            }
+                            span.left6 {
+                                left: calc(50% - 3em);
+                            }
+                            span.extra {
+                                top: calc(50% - 1em);
+                                text-align: center;
                             }
                         }
                     }
-                }
-                .s2p2 {
-                    height: 78%;
-                    ul {
-                        height: 100%;
-                        width: 100%;
-                        li {
-                            height: 16%;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            div {
-                                height: 65%;
-                                width: 90%;
-                                background-color: rgba($color: #242e56, $alpha: 0.59);
-                                border-radius: 10px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: space-between;
-                                span:nth-of-type(1) {
-                                    font-size: 33px;
-                                    letter-spacing: -1px;
-                                }
-                                span:nth-of-type(2) {
-                                    font-size: 33px;
-                                    letter-spacing: -1px;
-                                }
-                                img:nth-of-type(1) {
-                                    margin: 0 20px;
-                                    z-index: 1;
-                                    height: 31px;
-                                }
-                                img:nth-of-type(2) {
-                                    // height: 154px;
-                                    height: 135%;
-                                }
-                                img:nth-of-type(3) {
-                                    justify-self: flex-end;
-                                    margin: 0 20px;
-                                    height: 34px;
-                                }
-                            }
-                        }
+                    li:nth-child(2n + 1) {
+                        margin-left: 3%;
                     }
                 }
             }

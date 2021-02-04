@@ -1,168 +1,43 @@
 @charset "UTF-8";
 /* 默认样式 */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-li {
-  list-style-position: inside;
-  list-style-type: none; }
+li { list-style-position: inside; list-style-type: none; }
 
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both; }
+.clearfix::after { content: ''; display: block; clear: both; }
 
-body {
-  height: 100vh;
-  height: 100vh; }
+body { height: 100vh; height: 100vh; }
 
-.swiper-container {
-  width: 100%;
-  height: 100%;
-  background: no-repeat url("/img/backgroundImgx.jpg");
-  background-size: cover; }
+.swiper-container { width: 100%; height: 100%; background: no-repeat url("/img/backgroundImgx.jpg"); background-size: cover; }
 
-.swiper-scrollbar-drag {
-  background: #fff; }
+.swiper-scrollbar-drag { background: #fff; }
 
-.wrapper7 {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
-  .wrapper7 .header {
-    height: 5%;
-    background: #ffffff;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .wrapper7 .header div span {
-      font-family: AdobeHeitiStd-Regular;
-      font-size: 50px;
-      font-weight: normal;
-      font-stretch: normal;
-      letter-spacing: -1px;
-      color: #000000; }
-    .wrapper7 .header div:nth-child(3) span {
-      letter-spacing: -3px; }
-  .wrapper7 .section {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column; }
-    .wrapper7 .section .section1 {
-      height: 10%;
-      display: flex;
-      font-family: ZhenyanGB-Regular;
-      font-size: 58px;
-      color: #fff;
-      display: flex;
-      align-items: center; }
-      .wrapper7 .section .section1 span:nth-child(1) {
-        margin: 0 20px; }
-        .wrapper7 .section .section1 span:nth-child(1) img {
-          height: 46px; }
-    .wrapper7 .section .section2 {
-      height: 70%;
-      margin: 0 20px 20px;
-      display: flex;
-      flex-direction: column;
-      color: #fff;
-      position: relative; }
-      .wrapper7 .section .section2 .section2Wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(15, 23, 37, 0.72);
-        width: 100%;
-        height: 106%; }
-        .wrapper7 .section .section2 .section2Wrapper .s2p1 {
-          height: 22%;
-          display: flex;
-          flex-direction: column; }
-          .wrapper7 .section .section2 .section2Wrapper .s2p1 div {
-            font-size: 42px;
-            display: flex;
-            align-items: center;
-            justify-content: center; }
-          .wrapper7 .section .section2 .section2Wrapper .s2p1 ul {
-            flex-grow: 1;
-            display: flex; }
-            .wrapper7 .section .section2 .section2Wrapper .s2p1 ul li {
-              width: 50%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              font-family: ZhenyanGB-Regular;
-              font-size: 42px; }
-              .wrapper7 .section .section2 .section2Wrapper .s2p1 ul li img {
-                height: 111px; }
-        .wrapper7 .section .section2 .section2Wrapper .s2p2 {
-          height: 78%; }
-          .wrapper7 .section .section2 .section2Wrapper .s2p2 ul {
-            height: 100%;
-            width: 100%; }
-            .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li {
-              height: 16%;
-              display: flex;
-              align-items: center;
-              justify-content: center; }
-              .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div {
-                height: 65%;
-                width: 90%;
-                background-color: rgba(36, 46, 86, 0.59);
-                border-radius: 10px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between; }
-                .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(1) {
-                  font-size: 33px;
-                  letter-spacing: -1px; }
-                .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(2) {
-                  font-size: 33px;
-                  letter-spacing: -1px; }
-                .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(1) {
-                  margin: 0 20px;
-                  z-index: 1;
-                  height: 31px; }
-                .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(2) {
-                  height: 135%; }
-                .wrapper7 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(3) {
-                  justify-self: flex-end;
-                  margin: 0 20px;
-                  height: 34px; }
-    .wrapper7 .section .section3 {
-      height: 20%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .wrapper7 .section .section3 div:nth-child(1) img {
-        height: 80px;
-        margin-right: 20px; }
-      .wrapper7 .section .section3 div:nth-child(2) {
-        width: 12em;
-        font-size: 42px;
-        color: #fff;
-        display: flex;
-        flex-direction: column; }
-        .wrapper7 .section .section3 div:nth-child(2) span {
-          font-size: 42px;
-          line-height: 1;
-          height: 1em;
-          overflow: hidden;
-          text-align: justify; }
-        .wrapper7 .section .section3 div:nth-child(2) div.space {
-          height: 15px; }
-        .wrapper7 .section .section3 div:nth-child(2) span:nth-child(3) {
-          font-size: 22px; }
-        .wrapper7 .section .section3 div:nth-child(2) span::after {
-          content: '';
-          display: inline-block;
-          width: 100%; }
+.wrapper7 { height: 100%; width: 100%; display: flex; flex-direction: column; }
+.wrapper7 .header { height: 5%; background: #ffffff; padding: 0 15px; display: flex; align-items: center; justify-content: space-between; }
+.wrapper7 .header div span { font-family: AdobeHeitiStd-Regular; font-size: 50px; font-weight: normal; font-stretch: normal; letter-spacing: -1px; color: #000000; }
+.wrapper7 .header div:nth-child(3) span { letter-spacing: -3px; }
+.wrapper7 .section { flex-grow: 1; display: flex; flex-direction: column; }
+.wrapper7 .section .section1 { height: 10%; display: flex; font-family: ZhenyanGB-Regular; font-size: 58px; color: #fff; display: flex; align-items: center; }
+.wrapper7 .section .section1 span:nth-child(1) { margin: 0 20px; }
+.wrapper7 .section .section1 span:nth-child(1) img { height: 46px; }
+.wrapper7 .section .section2 { height: 70%; margin: 0 20px 20px; display: flex; flex-direction: column; color: #fff; position: relative; }
+.wrapper7 .section .section2 .section2Wrapper { position: absolute; top: 0; left: 0; width: 100%; height: 106%; display: flex; align-items: center; justify-content: center; }
+.wrapper7 .section .section2 .section2Wrapper ul { height: 100%; background-color: rgba(15, 23, 37, 0.72); max-width: 1000px; display: flex; flex-wrap: wrap; }
+.wrapper7 .section .section2 .section2Wrapper ul li { width: 45.5%; height: 16.666%; margin-right: 3%; display: flex; align-items: center; justify-content: center; }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper { position: relative; height: 90%; overflow: hidden; }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper img { height: 100%; }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span { font-size: 35px; position: absolute; top: calc(50% - 0.5em); left: calc(50% - 2.5em); }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left2 { left: calc(50% - 1em); }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left3 { left: calc(50% - 1.5em); }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left6 { left: calc(50% - 3em); }
+.wrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.extra { top: calc(50% - 1em); text-align: center; }
+.wrapper7 .section .section2 .section2Wrapper ul li:nth-child(2n + 1) { margin-left: 3%; }
+.wrapper7 .section .section3 { height: 20%; display: flex; align-items: center; justify-content: center; }
+.wrapper7 .section .section3 div:nth-child(1) img { height: 80px; margin-right: 20px; }
+.wrapper7 .section .section3 div:nth-child(2) { width: 12em; font-size: 42px; color: #fff; display: flex; flex-direction: column; }
+.wrapper7 .section .section3 div:nth-child(2) span { font-size: 42px; line-height: 1; height: 1em; overflow: hidden; text-align: justify; }
+.wrapper7 .section .section3 div:nth-child(2) div.space { height: 15px; }
+.wrapper7 .section .section3 div:nth-child(2) span:nth-child(3) { font-size: 22px; }
+.wrapper7 .section .section3 div:nth-child(2) span::after { content: ''; display: inline-block; width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
