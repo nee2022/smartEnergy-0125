@@ -170,8 +170,10 @@ body { height: 100vh; height: 100vh; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul { height: 100%; width: 100%; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li { height: 16%; display: flex; align-items: center; justify-content: center; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div { height: 65%; width: 90%; background-color: rgba(36, 46, 86, 0.59); border-radius: 10px; display: flex; align-items: center; justify-content: space-between; }
-.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(1) { font-size: 33px; letter-spacing: -1px; }
-.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(2) { font-size: 33px; letter-spacing: -1px; }
+.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(1) { width: 30%; font-size: 33px; letter-spacing: -1px; text-align: end; }
+.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(1) span.smallWord { text-align: end; font-size: 26px; }
+.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(2) { width: 30%; font-size: 33px; letter-spacing: -1px; text-align: start; }
+.wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div span:nth-of-type(2) span.smallWord { text-align: start; font-size: 26px; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(1) { margin: 0 20px; z-index: 1; height: 31px; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(2) { height: 135%; }
 .wrapper6 .section .section2 .section2Wrapper .s2p2 ul li div img:nth-of-type(3) { justify-self: flex-end; margin: 0 20px; height: 34px; }
@@ -210,5 +212,21 @@ body { height: 100vh; height: 100vh; }
 .wrapper7 .section .section3 div:nth-child(2) div.space { height: 15px; }
 .wrapper7 .section .section3 div:nth-child(2) span:nth-child(3) { font-size: 22px; }
 .wrapper7 .section .section3 div:nth-child(2) span::after { content: ''; display: inline-block; width: 100%; }
+
+#electricBicycleChargingWrapper4 .section2 .s2part2 .content { display: flex; align-items: center; justify-content: center; }
+#electricBicycleChargingWrapper4 .section2 .s2part2 .content .line1 div { margin: 0 80px; }
+
+#electricBicycleChargingWrapper7 .section .section2 { height: 70%; margin: 0 20px 20px; display: flex; flex-direction: column; color: #fff; position: relative; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper { position: absolute; top: 0; left: 0; width: 100%; height: 106%; display: flex; align-items: center; justify-content: center; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul { height: 100%; background-color: rgba(15, 23, 37, 0.72); max-width: 1000px; display: flex; flex-wrap: wrap; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li { width: 45.5%; height: 20%; margin-right: 3%; display: flex; align-items: center; justify-content: center; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper { position: relative; height: 90%; overflow: hidden; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper img { height: 100%; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span { font-size: 35px; position: absolute; top: calc(50% - 0.5em); left: calc(50% - 2.5em); }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left2 { left: calc(50% - 1em); }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left3 { left: calc(50% - 1.5em); }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.left6 { left: calc(50% - 3em); }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li div.liWrapper span.extra { top: calc(50% - 1em); text-align: center; }
+#electricBicycleChargingWrapper7 .section .section2 .section2Wrapper ul li:nth-child(2n + 1) { margin-left: 3%; }
 
 /*# sourceMappingURL=carCharging.css.map */
