@@ -1094,7 +1094,9 @@ body {
                             align-items: center;
                             justify-content: center;
                             div {
-                                height: 115px;
+                                height: 65%;
+                                // height: 115px;
+                                // max-height: 90%;
                                 width: 90%;
                                 background-color: rgba($color: #242e56, $alpha: 0.59);
                                 border-radius: 10px;
@@ -1115,7 +1117,8 @@ body {
                                     height: 31px;
                                 }
                                 img:nth-of-type(2) {
-                                    height: 154px;
+                                    // height: 154px;
+                                    height: 135%;
                                 }
                                 img:nth-of-type(3) {
                                     justify-self: flex-end;
